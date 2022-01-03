@@ -13,10 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('homepage');
+Route::get('/', function()
+{
+    return View::make('pages.homepage');
 });
 
 Route::get('/thesis-form', function (){
-    return view('thesis-form');
+    return View::make('pages.thesis-form');
 });

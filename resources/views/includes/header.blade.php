@@ -1,12 +1,3 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <title>Graduate Thesis System</title>
-</head>
-<body>
 <!-- MENU GENERAL STARTING -->
 <div class="relative bg-white">
     <!-- Web Menu Starting -->
@@ -137,9 +128,3 @@
     <!-- Mobile Menu Ending -->
 </div>
 <!-- MENU GENERAL ENDING -->
-
-
-
-
-</body>
-</html>
