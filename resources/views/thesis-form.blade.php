@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +7,9 @@
     <title>Thesis Submit Form</title>
 </head>
 <body>
-
-<!-- Web Menu Starting -->
-
+<!-- MENU GENERAL STARTING -->
 <div class="relative bg-white">
+    <!-- Web Menu Starting -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
             <div class="flex justify-start lg:w-0 lg:flex-1">
@@ -61,7 +60,6 @@
             </div>
         </div>
     </div>
-
     <!-- Web Menu Ending -->
 
     <!-- Mobile Menu Starting -->
@@ -138,6 +136,9 @@
     </div>
     <!-- Mobile Menu Ending -->
 </div>
+<!-- MENU GENERAL ENDING -->
+
+
 
 </body>
 </html>
