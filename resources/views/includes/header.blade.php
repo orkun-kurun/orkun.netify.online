@@ -25,26 +25,25 @@
             </div>
 
             <nav class="hidden md:flex space-x-10">
-                <div class="relative">
 
-                    <button type="button"
-                            class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                            aria-expanded="false">
-                        <span>Authors</span>
-                    </button>
+                <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">
+                    Home
+                </a>
 
-                </div>
+                <a href="/authors" class="text-base font-medium text-gray-500 hover:text-gray-900">
+                    Authors
+                </a>
 
-                <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">
+                <a href="/thesis" class="text-base font-medium text-gray-500 hover:text-gray-900">
                     Thesis
                 </a>
-                <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">
+                <a href="/search" class="text-base font-medium text-gray-500 hover:text-gray-900">
                     Search
                 </a>
 
             </nav>
             <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                <a href="#"
+                <a href="/thesis-form"
                    class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
                     Submit Thesis
                 </a>
@@ -77,7 +76,7 @@
                 </div>
                 <div class="mt-6">
                     <nav class="grid gap-y-8">
-                        <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                        <a href="/authors" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
 
                             <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                  fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -89,7 +88,7 @@
               </span>
                         </a>
 
-                        <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                        <a href="/thesis" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
 
                             <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                  fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -101,8 +100,7 @@
               </span>
                         </a>
 
-                        <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-
+                        <a href="/search" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
                             <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg"
                                  fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -117,7 +115,7 @@
             </div>
             <div class="py-6 px-5 space-y-6">
                 <div>
-                    <a href="#"
+                    <a href="/thesis-form"
                        class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
                         Submit Thesis
                     </a>

@@ -4,13 +4,13 @@
     @include('includes.head')
 </head>
 <body>
-<div class="container">
+<div class="container mx-auto">
 
     <header class="row">
         @include('includes.header')
     </header>
 
-    <div id="main" class="row">
+    <div id="main" class="container">
 
         @yield('content')
 

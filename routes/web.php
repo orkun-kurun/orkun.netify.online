@@ -21,3 +21,12 @@ Route::get('/', function()
 Route::get('/thesis-form', function (){
     return View::make('pages.thesis-form');
 });
+
+Route::get('/thesis', function (){
+    return View::make('pages.thesis');
+});
+
+Route::get('/authors', function (){
+    return View::make('pages.authors');
+});
+
