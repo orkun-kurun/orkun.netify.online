@@ -1,5 +1,6 @@
 @extends('layouts.default')
 @section('content')
+
     <table class="border-collapse w-full">
         <thead>
         <tr>
