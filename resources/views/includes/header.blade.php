@@ -3,14 +3,17 @@
     <!-- Web Menu Starting -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+
             <div class="flex justify-start lg:w-0 lg:flex-1">
-                <a href="#">
-                    <span class="sr-only">Workflow</span>
+                <a href="/"> <span class="sr-only">Thesis Management System</span>
                     <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                          alt="">
                 </a>
+
             </div>
-            <div class="-mr-2 -my-2 md:hidden">
+    {{-- TODO: AlpineJS Kullanılması gerekiyor.
+
+     <div class="-mr-2 -my-2 md:hidden">
                 <button type="button"
                         class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                         aria-expanded="false">
@@ -24,7 +27,9 @@
                 </button>
             </div>
 
-            <nav class="hidden md:flex space-x-10">
+          TODO: AlpineJS Kullanılması gerekiyor.  --}}
+
+            <nav class="md:flex mx-auto space-x-10">
 
                 <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">
                     Home
@@ -52,7 +57,8 @@
     </div>
     <!-- Web Menu Ending -->
 
-    <!-- Mobile Menu Starting -->
+    <!-- Mobile Menu Starting
+    TODO: AlpineJs kullanılması gerekiyor
     <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
         <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
             <div class="pt-5 pb-6 px-5">
@@ -123,6 +129,7 @@
             </div>
         </div>
     </div>
-    <!-- Mobile Menu Ending -->
+    TODO: AlpineJs kullanılması gerekiyor
+ Mobile Menu Ending -->
 </div>
 <!-- MENU GENERAL ENDING -->

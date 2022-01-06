@@ -13,20 +13,27 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function()
-{
+/*  Basic Routing */
+Route::get('/', function () {
     return View::make('pages.homepage');
 });
 
-Route::get('/thesis-form', function (){
+Route::get('/thesis-form', function () {
     return View::make('pages.thesis-form');
 });
 
-Route::get('/thesis', function (){
+Route::get('/thesis', function () {
     return View::make('pages.thesis');
 });
 
-Route::get('/authors', function (){
+Route::get('/authors', function () {
     return View::make('pages.authors');
 });
 
+Route::get('/search', function () {
+    return View::make('pages.search');
+});
+
+/*  Thesis Form Input */
+Route::get('/insert', 'App\Http\Controllers\ThesisFormController@index')->name('thesis form');
+Route::post('/create', 'App\Http\Controllers\ThesisFormController@store')->name('thesis form create');
